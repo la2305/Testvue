@@ -20,6 +20,7 @@ const dropdownHandler: OnClickOutsideHandler = (event) => {
 </script>
 
 <template>
+  <h1>1</h1>
   <button @click="modal = true">Open Modal</button>
   <div class="ml-2 relative inline-block">
     <button @click.stop="dropdown = !dropdown">Toggle Dropdown</button>
